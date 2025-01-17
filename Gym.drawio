@@ -1,0 +1,262 @@
+<mxfile host="Electron" modified="2024-08-28T17:18:35.214Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.6.4 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="dAkO-3NTXX8AQEDZC_JV" version="24.6.4" type="device">
+  <diagram name="Trang-1" id="wNdJmUCMhRpI4oZtgs6g">
+    <mxGraphModel dx="902" dy="1843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ynVnbruh-yGa88dYWYzb-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="D31DWtgnRejuHtk56Svu-1" target="ynVnbruh-yGa88dYWYzb-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ynVnbruh-yGa88dYWYzb-4" value="Tay sau" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ynVnbruh-yGa88dYWYzb-3" vertex="1" connectable="0">
+          <mxGeometry x="-0.1097" y="-3" relative="1" as="geometry">
+            <mxPoint x="42" y="-46" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ynVnbruh-yGa88dYWYzb-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="D31DWtgnRejuHtk56Svu-1" target="ynVnbruh-yGa88dYWYzb-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ynVnbruh-yGa88dYWYzb-8" value="Tay sau" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ynVnbruh-yGa88dYWYzb-7" vertex="1" connectable="0">
+          <mxGeometry x="0.4564" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ynVnbruh-yGa88dYWYzb-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="D31DWtgnRejuHtk56Svu-1" target="ynVnbruh-yGa88dYWYzb-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ynVnbruh-yGa88dYWYzb-18" value="Tay sau" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ynVnbruh-yGa88dYWYzb-17" vertex="1" connectable="0">
+          <mxGeometry x="0.6" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ynVnbruh-yGa88dYWYzb-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="D31DWtgnRejuHtk56Svu-1" target="ynVnbruh-yGa88dYWYzb-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ynVnbruh-yGa88dYWYzb-22" value="Tay sau" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ynVnbruh-yGa88dYWYzb-21" vertex="1" connectable="0">
+          <mxGeometry x="0.6451" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ynVnbruh-yGa88dYWYzb-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="D31DWtgnRejuHtk56Svu-1" target="Aq3y_5WPAvNGMgYqnK-v-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ynVnbruh-yGa88dYWYzb-37" value="Ngực" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ynVnbruh-yGa88dYWYzb-27" vertex="1" connectable="0">
+          <mxGeometry x="0.6986" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ynVnbruh-yGa88dYWYzb-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="D31DWtgnRejuHtk56Svu-1" target="Aq3y_5WPAvNGMgYqnK-v-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ynVnbruh-yGa88dYWYzb-36" value="Ngực" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ynVnbruh-yGa88dYWYzb-28" vertex="1" connectable="0">
+          <mxGeometry x="0.7412" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ynVnbruh-yGa88dYWYzb-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="D31DWtgnRejuHtk56Svu-1" target="ynVnbruh-yGa88dYWYzb-30" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ynVnbruh-yGa88dYWYzb-35" value="Ngực" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ynVnbruh-yGa88dYWYzb-31" vertex="1" connectable="0">
+          <mxGeometry x="0.7786" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ynVnbruh-yGa88dYWYzb-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="D31DWtgnRejuHtk56Svu-1" target="ynVnbruh-yGa88dYWYzb-32" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ynVnbruh-yGa88dYWYzb-34" value="Ngực" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ynVnbruh-yGa88dYWYzb-33" vertex="1" connectable="0">
+          <mxGeometry x="0.8067" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D31DWtgnRejuHtk56Svu-1" value="T2 : Ngực, tay sau" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="290" y="280" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Aq3y_5WPAvNGMgYqnK-v-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;endArrow=none;endFill=0;fillColor=#d5e8d4;strokeColor=#82b366;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="Aq3y_5WPAvNGMgYqnK-v-1" target="D31DWtgnRejuHtk56Svu-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="640" />
+              <mxPoint x="270" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ynVnbruh-yGa88dYWYzb-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Aq3y_5WPAvNGMgYqnK-v-1" target="ynVnbruh-yGa88dYWYzb-39" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ynVnbruh-yGa88dYWYzb-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Aq3y_5WPAvNGMgYqnK-v-1" target="ynVnbruh-yGa88dYWYzb-42" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ynVnbruh-yGa88dYWYzb-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Aq3y_5WPAvNGMgYqnK-v-1" target="ynVnbruh-yGa88dYWYzb-45" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jAOI_RNVgfuIdSDQTWkL-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Aq3y_5WPAvNGMgYqnK-v-1" target="jAOI_RNVgfuIdSDQTWkL-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jAOI_RNVgfuIdSDQTWkL-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Aq3y_5WPAvNGMgYqnK-v-1" target="jAOI_RNVgfuIdSDQTWkL-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Aq3y_5WPAvNGMgYqnK-v-1" value="T3 : Lưng, tay trước" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="290" y="620" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Aq3y_5WPAvNGMgYqnK-v-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;endArrow=none;endFill=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="Aq3y_5WPAvNGMgYqnK-v-2" target="Aq3y_5WPAvNGMgYqnK-v-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="800" />
+              <mxPoint x="270" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jAOI_RNVgfuIdSDQTWkL-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="jAOI_RNVgfuIdSDQTWkL-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="640" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jAOI_RNVgfuIdSDQTWkL-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="Aq3y_5WPAvNGMgYqnK-v-1" target="jAOI_RNVgfuIdSDQTWkL-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Aq3y_5WPAvNGMgYqnK-v-2" value="T4 : Chân" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="290" y="780" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Aq3y_5WPAvNGMgYqnK-v-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;endArrow=none;endFill=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="Aq3y_5WPAvNGMgYqnK-v-3" target="Aq3y_5WPAvNGMgYqnK-v-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="960" />
+              <mxPoint x="270" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Aq3y_5WPAvNGMgYqnK-v-3" value="T5 : Ngực, vai" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="290" y="940" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Aq3y_5WPAvNGMgYqnK-v-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;endArrow=none;endFill=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="Aq3y_5WPAvNGMgYqnK-v-4" target="Aq3y_5WPAvNGMgYqnK-v-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="1120" />
+              <mxPoint x="270" y="960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Aq3y_5WPAvNGMgYqnK-v-4" value="T6 : lưng, tay trước" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="290" y="1100" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Aq3y_5WPAvNGMgYqnK-v-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;endArrow=none;endFill=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="Aq3y_5WPAvNGMgYqnK-v-5" target="Aq3y_5WPAvNGMgYqnK-v-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="1280" />
+              <mxPoint x="270" y="1120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Aq3y_5WPAvNGMgYqnK-v-5" value="T7 : Cardio" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="290" y="1260" width="110" height="40" as="geometry" />
+        </mxCell>
+        <UserObject label="Incline Dumbbell Bench Press + machine&lt;div&gt;Link :&amp;nbsp;&lt;a style=&quot;text-wrap: nowrap; border-color: var(--border-color); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI Variable&amp;quot;, &amp;quot;Segoe UI&amp;quot;, system-ui, ui-sans-serif, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: start; background-color: rgb(255, 255, 255);&quot; rel=&quot;nofollow noopener noreferrer&quot; href=&quot;https://www.youtube.com/watch?v=8iPEnn-ltC8&quot; title=&quot;https://www.youtube.com/watch?v=8iPEnn-ltC8&quot; target=&quot;_blank&quot;&gt;https://www.youtube....iPEnn-ltC8&lt;/a&gt;&lt;/div&gt;" linkTarget="_blank" id="Aq3y_5WPAvNGMgYqnK-v-11">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="590" y="40" width="340" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Pec-dec Fly&lt;div&gt;Link :&amp;nbsp;&lt;a style=&quot;text-wrap: nowrap; border-color: var(--border-color); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI Variable&amp;quot;, &amp;quot;Segoe UI&amp;quot;, system-ui, ui-sans-serif, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: start; background-color: rgb(255, 255, 255);&quot; rel=&quot;nofollow noopener noreferrer&quot; href=&quot;https://www.youtube.com/watch?v=eGjt4lk6g34&quot; title=&quot;https://www.youtube.com/watch?v=eGjt4lk6g34&quot; target=&quot;_blank&quot;&gt;https://www.youtube....Gjt4lk6g34&lt;/a&gt;&lt;/div&gt;" linkTarget="_blank" id="Aq3y_5WPAvNGMgYqnK-v-12">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="590" y="120" width="340" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Dumbbell kickback ( 4 rep, 10-12 reps)&lt;div&gt;Link :&amp;nbsp;&lt;a style=&quot;text-wrap: nowrap; border-color: var(--border-color); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI Variable&amp;quot;, &amp;quot;Segoe UI&amp;quot;, system-ui, ui-sans-serif, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: start; background-color: rgb(255, 255, 255);&quot; rel=&quot;nofollow noopener noreferrer&quot; href=&quot;https://www.youtube.com/watch?v=6SS6K3lAwZ8&quot; title=&quot;https://www.youtube.com/watch?v=6SS6K3lAwZ8&quot; target=&quot;_blank&quot;&gt;https://www.youtube....SS6K3lAwZ8&lt;/a&gt;&lt;/div&gt;" linkTarget="_blank" id="ynVnbruh-yGa88dYWYzb-2">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="590" y="210" width="340" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Dumbbell skull scrusher ( 4 rep, 10-12 reps)&lt;div&gt;Link :&amp;nbsp;&lt;a style=&quot;text-wrap: nowrap; border-color: var(--border-color); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI Variable&amp;quot;, &amp;quot;Segoe UI&amp;quot;, system-ui, ui-sans-serif, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: start; background-color: rgb(255, 255, 255);&quot; rel=&quot;nofollow noopener noreferrer&quot; href=&quot;https://www.youtube.com/watch?v=ir5PsbniVSc&quot; title=&quot;https://www.youtube.com/watch?v=ir5PsbniVSc&quot; target=&quot;_blank&quot;&gt;https://www.youtube....r5PsbniVSc&lt;/a&gt;&lt;/div&gt;" linkTarget="_blank" id="ynVnbruh-yGa88dYWYzb-6">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="590" y="290" width="340" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Rope push down ( 4 rep, 8-12 sets)&lt;div&gt;Link :&amp;nbsp;&lt;a style=&quot;text-wrap: nowrap; border-color: var(--border-color); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI Variable&amp;quot;, &amp;quot;Segoe UI&amp;quot;, system-ui, ui-sans-serif, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: start; background-color: rgb(255, 255, 255);&quot; rel=&quot;nofollow noopener noreferrer&quot; href=&quot;https://www.youtube.com/watch?app=desktop&amp;amp;v=vB5OHsJ3EME&quot; title=&quot;https://www.youtube.com/watch?app=desktop&amp;amp;v=vB5OHsJ3EME&quot; target=&quot;_blank&quot;&gt;https://www.youtube....B5OHsJ3EME&lt;/a&gt;&lt;/div&gt;" linkTarget="_blank" id="ynVnbruh-yGa88dYWYzb-11">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="590" y="360" width="340" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Bench dip&lt;div&gt;Link :&amp;nbsp;&amp;nbsp;&lt;a style=&quot;text-wrap: nowrap; border-color: var(--border-color); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI Variable&amp;quot;, &amp;quot;Segoe UI&amp;quot;, system-ui, ui-sans-serif, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: start; background-color: rgb(255, 255, 255);&quot; rel=&quot;nofollow noopener noreferrer&quot; href=&quot;https://www.youtube.com/watch?v=c3ZGl4pAwZ4&quot; title=&quot;https://www.youtube.com/watch?v=c3ZGl4pAwZ4&quot; target=&quot;_blank&quot;&gt;https://www.youtube....3ZGl4pAwZ4&lt;/a&gt;&lt;/div&gt;" linkTarget="_blank" id="ynVnbruh-yGa88dYWYzb-20">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="590" y="440" width="340" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="High cable fly&lt;div&gt;Link :&amp;nbsp;&amp;nbsp;&lt;a style=&quot;text-wrap: nowrap; border-color: var(--border-color); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI Variable&amp;quot;, &amp;quot;Segoe UI&amp;quot;, system-ui, ui-sans-serif, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: start; background-color: rgb(255, 255, 255);&quot; rel=&quot;nofollow noopener noreferrer&quot; href=&quot;https://www.youtube.com/watch?v=Iwe6AmxVf7o&quot; title=&quot;https://www.youtube.com/watch?v=Iwe6AmxVf7o&quot; target=&quot;_blank&quot;&gt;https://www.youtube....we6AmxVf7o&lt;/a&gt;&lt;/div&gt;" linkTarget="_blank" id="ynVnbruh-yGa88dYWYzb-30">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="590" y="-50" width="340" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Middle cable chest fly&lt;div&gt;Link :&amp;nbsp;&lt;a style=&quot;text-wrap: nowrap; border-color: var(--border-color); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI Variable&amp;quot;, &amp;quot;Segoe UI&amp;quot;, system-ui, ui-sans-serif, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: start; background-color: rgb(255, 255, 255);&quot; rel=&quot;nofollow noopener noreferrer&quot; href=&quot;https://www.youtube.com/watch?v=WEM9FCIPlxQ&quot; title=&quot;https://www.youtube.com/watch?v=WEM9FCIPlxQ&quot; target=&quot;_blank&quot;&gt;https://www.youtube....EM9FCIPlxQ&lt;/a&gt;&lt;/div&gt;" linkTarget="_blank" id="ynVnbruh-yGa88dYWYzb-32">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="590" y="-140" width="340" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Rack pull&lt;div&gt;Link :&amp;nbsp;&lt;a style=&quot;text-wrap: nowrap; border-color: var(--border-color); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI Variable&amp;quot;, &amp;quot;Segoe UI&amp;quot;, system-ui, ui-sans-serif, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: start; background-color: rgb(255, 255, 255);&quot; rel=&quot;nofollow noopener noreferrer&quot; href=&quot;https://www.youtube.com/watch?v=P-Ir835AWhQ&quot; title=&quot;https://www.youtube.com/watch?v=P-Ir835AWhQ&quot; target=&quot;_blank&quot;&gt;https://www.youtube....-Ir835AWhQ&lt;/a&gt;&lt;/div&gt;" linkTarget="_blank" id="ynVnbruh-yGa88dYWYzb-39">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="590" y="560" width="340" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Lat pull down&lt;div&gt;Link :&amp;nbsp;&lt;a style=&quot;text-wrap: nowrap; border-color: var(--border-color); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI Variable&amp;quot;, &amp;quot;Segoe UI&amp;quot;, system-ui, ui-sans-serif, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: start; background-color: rgb(255, 255, 255);&quot; rel=&quot;nofollow noopener noreferrer&quot; href=&quot;https://www.youtube.com/watch?v=trZQjegcRx0&quot; title=&quot;https://www.youtube.com/watch?v=trZQjegcRx0&quot; target=&quot;_blank&quot;&gt;https://www.youtube....rZQjegcRx0&lt;/a&gt;&lt;/div&gt;" linkTarget="_blank" id="ynVnbruh-yGa88dYWYzb-42">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="590" y="650" width="340" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Cable pullover&lt;div&gt;Link:&amp;nbsp;&lt;a style=&quot;text-wrap: nowrap; border-color: var(--border-color); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI Variable&amp;quot;, &amp;quot;Segoe UI&amp;quot;, system-ui, ui-sans-serif, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: start; background-color: rgb(255, 255, 255);&quot; rel=&quot;nofollow noopener noreferrer&quot; href=&quot;https://www.youtube.com/watch?v=Act5-TOl7M8&quot; title=&quot;https://www.youtube.com/watch?v=Act5-TOl7M8&quot; target=&quot;_blank&quot;&gt;https://www.youtube....ct5-TOl7M8&lt;/a&gt;&lt;/div&gt;" linkTarget="_blank" id="ynVnbruh-yGa88dYWYzb-45">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="590" y="740" width="340" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="lateral raise&lt;div&gt;Link :&amp;nbsp;&lt;a style=&quot;text-wrap: nowrap; border-color: var(--border-color); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI Variable&amp;quot;, &amp;quot;Segoe UI&amp;quot;, system-ui, ui-sans-serif, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: start; background-color: rgb(255, 255, 255);&quot; rel=&quot;nofollow noopener noreferrer&quot; href=&quot;https://www.youtube.com/watch?v=3VcKaXpzqRo&quot; title=&quot;https://www.youtube.com/watch?v=3VcKaXpzqRo&quot; target=&quot;_blank&quot;&gt;https://www.youtube....VcKaXpzqRo&lt;/a&gt;&lt;/div&gt;" linkTarget="_blank" id="jAOI_RNVgfuIdSDQTWkL-1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="590" y="830" width="340" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="dumbbell curl&amp;nbsp;&lt;div&gt;Link :&amp;nbsp;&lt;a style=&quot;text-wrap: nowrap; border-color: var(--border-color); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI Variable&amp;quot;, &amp;quot;Segoe UI&amp;quot;, system-ui, ui-sans-serif, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: start; background-color: rgb(255, 255, 255);&quot; rel=&quot;nofollow noopener noreferrer&quot; href=&quot;https://www.youtube.com/watch?v=sAq_ocpRh_I&quot; title=&quot;https://www.youtube.com/watch?v=sAq_ocpRh_I&quot; target=&quot;_blank&quot;&gt;https://www.youtube....Aq_ocpRh_I&lt;/a&gt;&lt;/div&gt;" linkTarget="_blank" id="jAOI_RNVgfuIdSDQTWkL-3">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="590" y="930" width="340" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div&gt;Preacher curl&lt;/div&gt;Link :&amp;nbsp;&lt;a style=&quot;border-color: var(--border-color); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI Variable&amp;quot;, &amp;quot;Segoe UI&amp;quot;, system-ui, ui-sans-serif, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: start; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot; rel=&quot;nofollow noopener noreferrer&quot; href=&quot;https://www.youtube.com/watch?v=3mtXqrkbEfI&quot; title=&quot;https://www.youtube.com/watch?v=3mtXqrkbEfI&quot; target=&quot;_blank&quot;&gt;https://www.youtube....mtXqrkbEfI&lt;/a&gt;&amp;nbsp;" linkTarget="_blank" id="jAOI_RNVgfuIdSDQTWkL-6">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="590" y="1030" width="330" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Cable curl&lt;div&gt;Link :&amp;nbsp;&lt;a style=&quot;text-wrap: nowrap; border-color: var(--border-color); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI Variable&amp;quot;, &amp;quot;Segoe UI&amp;quot;, system-ui, ui-sans-serif, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: start; background-color: rgb(255, 255, 255);&quot; rel=&quot;nofollow noopener noreferrer&quot; href=&quot;https://www.youtube.com/watch?v=AsAVbj7puKo&quot; title=&quot;https://www.youtube.com/watch?v=AsAVbj7puKo&quot; target=&quot;_blank&quot;&gt;https://www.youtube....sAVbj7puKo&lt;/a&gt;&lt;/div&gt;" linkTarget="_blank" id="jAOI_RNVgfuIdSDQTWkL-8">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="590" y="1130" width="330" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Incline Dumbbell Bench Press + machine&lt;div&gt;Link :&amp;nbsp;&lt;a target=&quot;_blank&quot; title=&quot;https://www.youtube.com/watch?v=8iPEnn-ltC8&quot; href=&quot;https://www.youtube.com/watch?v=8iPEnn-ltC8&quot; rel=&quot;nofollow noopener noreferrer&quot; style=&quot;text-wrap: nowrap; border-color: var(--border-color); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI Variable&amp;quot;, &amp;quot;Segoe UI&amp;quot;, system-ui, ui-sans-serif, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;https://www.youtube....iPEnn-ltC8&lt;/a&gt;&lt;/div&gt;" linkTarget="_blank" id="jD-4qzU6_c-8sb6lwh8b-7">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="590" y="1440" width="340" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Pec-dec Fly&lt;div&gt;Link :&amp;nbsp;&lt;a target=&quot;_blank&quot; title=&quot;https://www.youtube.com/watch?v=eGjt4lk6g34&quot; href=&quot;https://www.youtube.com/watch?v=eGjt4lk6g34&quot; rel=&quot;nofollow noopener noreferrer&quot; style=&quot;text-wrap: nowrap; border-color: var(--border-color); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI Variable&amp;quot;, &amp;quot;Segoe UI&amp;quot;, system-ui, ui-sans-serif, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;https://www.youtube....Gjt4lk6g34&lt;/a&gt;&lt;/div&gt;" linkTarget="_blank" id="jD-4qzU6_c-8sb6lwh8b-8">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="590" y="1520" width="340" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="High cable fly&lt;div&gt;Link :&amp;nbsp;&amp;nbsp;&lt;a target=&quot;_blank&quot; title=&quot;https://www.youtube.com/watch?v=Iwe6AmxVf7o&quot; href=&quot;https://www.youtube.com/watch?v=Iwe6AmxVf7o&quot; rel=&quot;nofollow noopener noreferrer&quot; style=&quot;text-wrap: nowrap; border-color: var(--border-color); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI Variable&amp;quot;, &amp;quot;Segoe UI&amp;quot;, system-ui, ui-sans-serif, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;https://www.youtube....we6AmxVf7o&lt;/a&gt;&lt;/div&gt;" linkTarget="_blank" id="jD-4qzU6_c-8sb6lwh8b-9">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="590" y="1350" width="340" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Middle cable chest fly&lt;div&gt;Link :&amp;nbsp;&lt;a target=&quot;_blank&quot; title=&quot;https://www.youtube.com/watch?v=WEM9FCIPlxQ&quot; href=&quot;https://www.youtube.com/watch?v=WEM9FCIPlxQ&quot; rel=&quot;nofollow noopener noreferrer&quot; style=&quot;text-wrap: nowrap; border-color: var(--border-color); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI Variable&amp;quot;, &amp;quot;Segoe UI&amp;quot;, system-ui, ui-sans-serif, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;https://www.youtube....EM9FCIPlxQ&lt;/a&gt;&lt;/div&gt;" linkTarget="_blank" id="jD-4qzU6_c-8sb6lwh8b-10">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="590" y="1260" width="340" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="jD-4qzU6_c-8sb6lwh8b-11" value="Lateral raise" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="1610" width="340" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jD-4qzU6_c-8sb6lwh8b-12" value="Cable lateral raise" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="1680" width="340" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jD-4qzU6_c-8sb6lwh8b-14" value="Chest supported y-raise" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="1760" width="340" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jD-4qzU6_c-8sb6lwh8b-16" value="Rear delt row" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="1830" width="340" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

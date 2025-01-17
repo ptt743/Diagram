@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net" modified="2024-06-07T07:52:28.244Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="sacDq9qGVDjyiHu6UtY1" version="24.4.13" type="google">
+  <diagram name="Trang-1" id="TakJH_y9S4_njjpIjTkx">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PuEH9_PbqJjl3DPoNX6b-1" value="ZaloWorkerController" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="170" y="120" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PuEH9_PbqJjl3DPoNX6b-3" value="Map&amp;lt;String, Class&amp;lt;? extends IZaloFunction&amp;gt;&amp;gt; funcWorkerClassList" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" vertex="1" parent="1">
+          <mxGeometry x="280" y="210" width="440" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PuEH9_PbqJjl3DPoNX6b-4" value="IInternalWorkerDataBuilder&amp;lt;FunctionProcessConfig, ZaloSessionEventHandler&amp;gt; receiveEventHandler" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" vertex="1" parent="1">
+          <mxGeometry x="280" y="280" width="620" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PuEH9_PbqJjl3DPoNX6b-5" value="IInternalWorkerDataBuilder&amp;lt;ZaloPacketReceiveDataInfo, IZaloPacket&amp;gt; receivePacketParser" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" vertex="1" parent="1">
+          <mxGeometry x="280" y="360" width="590" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PuEH9_PbqJjl3DPoNX6b-6" value="IInternalWorkerDataBuilder&amp;lt;ZaloPacketReceiveDataInfo, IZaloPacket&amp;gt; authenPacketParser" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" vertex="1" parent="1">
+          <mxGeometry x="280" y="440" width="600" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PuEH9_PbqJjl3DPoNX6b-7" value="Map&amp;lt;Integer, ZaloWorkerThread&amp;gt; workers" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" vertex="1" parent="1">
+          <mxGeometry x="280" y="520" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PuEH9_PbqJjl3DPoNX6b-8" value="ZaloWorkerStats stats" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="280" y="600" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PuEH9_PbqJjl3DPoNX6b-9" value="Map&amp;lt;String, ThreadPoolExecutor&amp;gt; parsedPacketExecutors" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" vertex="1" parent="1">
+          <mxGeometry x="280" y="680" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PuEH9_PbqJjl3DPoNX6b-10" value="Map&amp;lt;String, ThreadPoolExecutor&amp;gt; processPacketExecutors" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;" vertex="1" parent="1">
+          <mxGeometry x="280" y="760" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PuEH9_PbqJjl3DPoNX6b-11" value="Map&amp;lt;String, IZaloFunctionFactory&amp;gt; functionNameFactoryMap" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="280" y="840" width="370" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
