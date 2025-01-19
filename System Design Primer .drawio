@@ -710,8 +710,8 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="580" y="4710" />
-              <mxPoint x="460" y="4710" />
-              <mxPoint x="460" y="4920" />
+              <mxPoint x="410" y="4710" />
+              <mxPoint x="410" y="4920" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -720,8 +720,17 @@
             <mxPoint x="530" y="4588" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="580" y="4710" />
-              <mxPoint x="460" y="4710" />
-              <mxPoint x="460" y="5210" />
+              <mxPoint x="410" y="4710" />
+              <mxPoint x="410" y="5210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZX9ioZEs1MNXK_P4MsSK-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="ZX9ioZEs1MNXK_P4MsSK-18" target="ZX9ioZEs1MNXK_P4MsSK-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="4710" />
+              <mxPoint x="410" y="4710" />
+              <mxPoint x="410" y="5475" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -741,7 +750,13 @@
           <mxGeometry x="18" y="5130" width="302" height="160.17" as="geometry" />
         </mxCell>
         <mxCell id="ZX9ioZEs1MNXK_P4MsSK-26" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://github.com/donnemartin/system-design-primer/raw/master/images/rgSrvjG.png;" vertex="1" parent="1">
-          <mxGeometry x="-320" y="5139.51" width="296" height="274.16" as="geometry" />
+          <mxGeometry x="-320" y="5121.75" width="296" height="274.16" as="geometry" />
+        </mxCell>
+        <mxCell id="ZX9ioZEs1MNXK_P4MsSK-28" value="&lt;b&gt;Refresh-ahead&lt;/b&gt;&lt;div&gt;-&amp;nbsp;configure the cache automatically refresh any recently accessed cache entry prior to its expiration&lt;/div&gt;&lt;div&gt;&lt;b&gt;disavantage&lt;/b&gt;&lt;br&gt;not accurately predicting can result in reduced performance&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="18" y="5410" width="302" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ZX9ioZEs1MNXK_P4MsSK-29" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://github.com/donnemartin/system-design-primer/raw/master/images/kxtjqgE.png;" vertex="1" parent="1">
+          <mxGeometry x="-490" y="5410" width="466" height="106.8" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
