@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.6">
   <diagram name="Page-1" id="FvI5V6qdo6-4IqGJrc5q">
-    <mxGraphModel dx="2044" dy="1800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1686" dy="1590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -695,7 +695,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ZX9ioZEs1MNXK_P4MsSK-17" value="&lt;b&gt;Cache-aside&lt;/b&gt;&lt;div&gt;- app read and write to storage&amp;nbsp;&lt;/div&gt;&lt;div&gt;- cache not interact with storage directly&lt;/div&gt;&lt;div&gt;&lt;b&gt;application do following&lt;/b&gt;&lt;/div&gt;&lt;div&gt;+&amp;nbsp;Look for entry in cache =&amp;gt; cache miss&lt;/div&gt;&lt;div&gt;+&amp;nbsp;Load entry from the database&lt;/div&gt;&lt;div&gt;+&amp;nbsp;Add entry to cache&lt;/div&gt;&lt;div&gt;+&amp;nbsp;Return entry&lt;/div&gt;&lt;div&gt;&lt;i style=&quot;text-decoration-line: underline;&quot;&gt;Memcached is generally used in this manner&lt;/i&gt;&lt;br&gt;&lt;b&gt;Disadvantage&lt;/b&gt;&lt;/div&gt;&lt;div&gt;+ cache can be stale =&amp;gt; set TTL or apply write-through&lt;/div&gt;&lt;div&gt;+ a node cache fail =&amp;gt; replace by a new empty node(so latecy)&lt;/div&gt;&lt;div&gt;+ cache miss cause noticeable delay&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;&lt;br&gt;&lt;/i&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="110" y="4602.06" width="300" height="207.94" as="geometry" />
+          <mxGeometry x="18" y="4602.06" width="300" height="207.94" as="geometry" />
         </mxCell>
         <mxCell id="ZX9ioZEs1MNXK_P4MsSK-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="ZX9ioZEs1MNXK_P4MsSK-18" target="ZX9ioZEs1MNXK_P4MsSK-17">
           <mxGeometry relative="1" as="geometry">
@@ -708,7 +708,13 @@
           <mxGeometry x="530" y="4574.120000000001" width="100" height="27.94" as="geometry" />
         </mxCell>
         <mxCell id="ZX9ioZEs1MNXK_P4MsSK-21" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://github.com/donnemartin/system-design-primer/raw/master/images/ONjORqk.png;" vertex="1" parent="1">
-          <mxGeometry x="-360" y="4600" width="470" height="180.17" as="geometry" />
+          <mxGeometry x="-452" y="4600" width="470" height="180.17" as="geometry" />
+        </mxCell>
+        <mxCell id="ZX9ioZEs1MNXK_P4MsSK-22" value="&lt;b&gt;Write-through&lt;/b&gt;&lt;br&gt;- Application &lt;span style=&quot;background-color: rgb(255, 255, 102);&quot;&gt;adds/updates&lt;/span&gt; entry in cache=&amp;gt;&amp;nbsp;cache is responsible&amp;nbsp;&lt;span style=&quot;background-color: rgb(255, 255, 102);&quot;&gt;synchronously writes&lt;/span&gt; entry to data store&lt;div&gt;- slow overall operation due to the write operation&lt;/div&gt;&lt;div&gt;-&amp;nbsp;reads of just written data are fast&lt;/div&gt;&lt;div&gt;-Data in the cache is &lt;b style=&quot;&quot;&gt;not stale.&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Disadvantage&lt;/b&gt;&lt;br&gt;- new node created =&amp;gt; no entry until entry update in database&lt;/div&gt;&lt;div&gt;- most data never read =&amp;gt; TTL or LRU&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="18" y="4840" width="302" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ZX9ioZEs1MNXK_P4MsSK-23" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://github.com/donnemartin/system-design-primer/raw/master/images/0vBc0hN.png;" vertex="1" parent="1">
+          <mxGeometry x="-337.03" y="4790" width="240.05" height="340" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
