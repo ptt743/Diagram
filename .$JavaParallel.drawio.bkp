@@ -1,0 +1,389 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.8 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.8">
+  <diagram name="Page-1" id="HCxxrxdU7tXmTC1crO95">
+    <mxGraphModel dx="3791" dy="2598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LDvu7WuiL3MX9J2Gs1lx-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="LDvu7WuiL3MX9J2Gs1lx-1" target="LDvu7WuiL3MX9J2Gs1lx-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LDvu7WuiL3MX9J2Gs1lx-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="LDvu7WuiL3MX9J2Gs1lx-1" target="LDvu7WuiL3MX9J2Gs1lx-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LDvu7WuiL3MX9J2Gs1lx-1" value="Parallel" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LDvu7WuiL3MX9J2Gs1lx-2" value="multi process&lt;br&gt;- each contain it&#39;s own memory&lt;div&gt;- not share with other&lt;/div&gt;&lt;div&gt;- communication between process not easy&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="520" y="160" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LDvu7WuiL3MX9J2Gs1lx-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;curved=1;endArrow=none;endFill=0;" parent="1" source="LDvu7WuiL3MX9J2Gs1lx-3" target="LDvu7WuiL3MX9J2Gs1lx-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LDvu7WuiL3MX9J2Gs1lx-3" value="multi thread&lt;div&gt;- share a single memory&lt;/div&gt;&lt;div&gt;- not context switch repair because every thing share same memory&lt;/div&gt;&lt;div&gt;- execution wise faster because every thing happen inside a process&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="520" y="360" width="260" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="LDvu7WuiL3MX9J2Gs1lx-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="LDvu7WuiL3MX9J2Gs1lx-6" target="LDvu7WuiL3MX9J2Gs1lx-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="910" y="384" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LDvu7WuiL3MX9J2Gs1lx-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="LDvu7WuiL3MX9J2Gs1lx-6" target="LDvu7WuiL3MX9J2Gs1lx-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LDvu7WuiL3MX9J2Gs1lx-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="LDvu7WuiL3MX9J2Gs1lx-6" target="LDvu7WuiL3MX9J2Gs1lx-15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="910" y="596" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LDvu7WuiL3MX9J2Gs1lx-6" value="Thread" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="850" y="196" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LDvu7WuiL3MX9J2Gs1lx-8" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://javatrainingschool.com/wp-content/uploads/2021/09/image-13-1024x477.png;" parent="1" vertex="1">
+          <mxGeometry x="970" y="246" width="594" height="276.7" as="geometry" />
+        </mxCell>
+        <mxCell id="LDvu7WuiL3MX9J2Gs1lx-10" value="daemon thread" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1010" y="146" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LDvu7WuiL3MX9J2Gs1lx-13" value="- run automaticlly&lt;div&gt;-&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;typically used for tasks that support other threads&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;automatically terminates when all non-daemon threads in the program have finished executing&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Once a thread has started, its daemon status cannot be changed.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Lower Priority&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1165" y="130" width="390" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="LDvu7WuiL3MX9J2Gs1lx-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.003;entryY=0.357;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="LDvu7WuiL3MX9J2Gs1lx-10" target="LDvu7WuiL3MX9J2Gs1lx-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LDvu7WuiL3MX9J2Gs1lx-15" value="synchronization" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1010" y="576" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="V_Qym_rLcbJQCU_qM3iy-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="V_Qym_rLcbJQCU_qM3iy-1" target="LDvu7WuiL3MX9J2Gs1lx-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V_Qym_rLcbJQCU_qM3iy-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="V_Qym_rLcbJQCU_qM3iy-1" target="V_Qym_rLcbJQCU_qM3iy-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V_Qym_rLcbJQCU_qM3iy-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="V_Qym_rLcbJQCU_qM3iy-1" target="V_Qym_rLcbJQCU_qM3iy-12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="60" y="290" />
+              <mxPoint x="60" y="195" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5eDSNTvj5JFyMI8n2aZp-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="V_Qym_rLcbJQCU_qM3iy-1" target="V_Qym_rLcbJQCU_qM3iy-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="60" y="290" />
+              <mxPoint x="60" y="1013" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V_Qym_rLcbJQCU_qM3iy-1" value="Concurrent Programming" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="130" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V_Qym_rLcbJQCU_qM3iy-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="V_Qym_rLcbJQCU_qM3iy-3" target="V_Qym_rLcbJQCU_qM3iy-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V_Qym_rLcbJQCU_qM3iy-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="V_Qym_rLcbJQCU_qM3iy-3" target="V_Qym_rLcbJQCU_qM3iy-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V_Qym_rLcbJQCU_qM3iy-3" value="Basic Threading" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-120" y="-260" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V_Qym_rLcbJQCU_qM3iy-5" value="Thread class" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-280" y="-310" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="V_Qym_rLcbJQCU_qM3iy-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="V_Qym_rLcbJQCU_qM3iy-6" target="V_Qym_rLcbJQCU_qM3iy-23" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V_Qym_rLcbJQCU_qM3iy-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="V_Qym_rLcbJQCU_qM3iy-6" target="V_Qym_rLcbJQCU_qM3iy-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V_Qym_rLcbJQCU_qM3iy-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="V_Qym_rLcbJQCU_qM3iy-6" target="V_Qym_rLcbJQCU_qM3iy-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V_Qym_rLcbJQCU_qM3iy-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="V_Qym_rLcbJQCU_qM3iy-6" target="V_Qym_rLcbJQCU_qM3iy-25" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-370" y="-210" />
+              <mxPoint x="-370" y="-210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V_Qym_rLcbJQCU_qM3iy-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="V_Qym_rLcbJQCU_qM3iy-6" target="V_Qym_rLcbJQCU_qM3iy-31" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-340" y="-210" />
+              <mxPoint x="-340" y="-35" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V_Qym_rLcbJQCU_qM3iy-6" value="Runnable interface&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-280" y="-230" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PTDOkgaLtRNwIMFYP1al-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="V_Qym_rLcbJQCU_qM3iy-11" target="PTDOkgaLtRNwIMFYP1al-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PTDOkgaLtRNwIMFYP1al-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="V_Qym_rLcbJQCU_qM3iy-11" target="PTDOkgaLtRNwIMFYP1al-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V_Qym_rLcbJQCU_qM3iy-11" value="Executors" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="88" y="992.5" width="110" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="V_Qym_rLcbJQCU_qM3iy-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="V_Qym_rLcbJQCU_qM3iy-12" target="V_Qym_rLcbJQCU_qM3iy-35" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V_Qym_rLcbJQCU_qM3iy-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="V_Qym_rLcbJQCU_qM3iy-12" target="V_Qym_rLcbJQCU_qM3iy-44" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V_Qym_rLcbJQCU_qM3iy-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="V_Qym_rLcbJQCU_qM3iy-12" target="V_Qym_rLcbJQCU_qM3iy-47" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V_Qym_rLcbJQCU_qM3iy-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="V_Qym_rLcbJQCU_qM3iy-12" target="V_Qym_rLcbJQCU_qM3iy-49" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V_Qym_rLcbJQCU_qM3iy-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" parent="1" source="V_Qym_rLcbJQCU_qM3iy-1" target="V_Qym_rLcbJQCU_qM3iy-51" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="60" y="290" />
+              <mxPoint x="60" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V_Qym_rLcbJQCU_qM3iy-12" value="Locks" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-110" y="180" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V_Qym_rLcbJQCU_qM3iy-13" value="Concurrent Collections" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-500" y="1670" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="V_Qym_rLcbJQCU_qM3iy-14" value="Synchronization Utilities" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-510" y="1750" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="V_Qym_rLcbJQCU_qM3iy-16" value="Fork/Join Framework" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-520" y="1910" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="V_Qym_rLcbJQCU_qM3iy-17" value="Thread Communication" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-520" y="1990" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="V_Qym_rLcbJQCU_qM3iy-18" value="Deadlocks, Livelocks, and Starvation" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-520" y="2070" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="V_Qym_rLcbJQCU_qM3iy-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="V_Qym_rLcbJQCU_qM3iy-19" target="V_Qym_rLcbJQCU_qM3iy-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V_Qym_rLcbJQCU_qM3iy-19" value="&lt;div&gt;Thread &lt;b&gt;thread&lt;/b&gt; = new Thread(() -&amp;gt; System.out.println(&quot;Running in a thread&quot;));&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;thread&lt;/b&gt;.start();&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="-640" y="-390" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V_Qym_rLcbJQCU_qM3iy-21" value="Design more flexible : because java not support multiple inheritance" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-600" y="-170" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="V_Qym_rLcbJQCU_qM3iy-22" value="Easy to use and recycle logic" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-600" y="-120" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="V_Qym_rLcbJQCU_qM3iy-23" value="Future interface&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-277.5" y="-30" width="115" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="V_Qym_rLcbJQCU_qM3iy-25" value="separate between logic and thread =&amp;gt; easy to manage&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-700" y="-220" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="V_Qym_rLcbJQCU_qM3iy-31" value="&lt;span class=&quot;hljs-keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;hljs-title class_&quot;&gt;MyTask&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;implements&lt;/span&gt; &lt;span class=&quot;hljs-title class_&quot;&gt;Runnable&lt;/span&gt; {&lt;br&gt;    &lt;span class=&quot;hljs-meta&quot;&gt;@Override&lt;/span&gt;&lt;br&gt;    &lt;span class=&quot;hljs-keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;hljs-title function_&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;hljs-params&quot;&gt;()&lt;/span&gt; {&lt;br&gt;        &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;System.out.println(&lt;span class=&quot;hljs-string&quot;&gt;&quot;Running in a thread&quot;&lt;/span&gt;);&lt;br&gt;    &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;}&lt;br&gt;}" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="-710" y="-60" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="V_Qym_rLcbJQCU_qM3iy-35" value="&lt;b&gt;Synchronized&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-360" y="90" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V_Qym_rLcbJQCU_qM3iy-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="V_Qym_rLcbJQCU_qM3iy-37" target="V_Qym_rLcbJQCU_qM3iy-35" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V_Qym_rLcbJQCU_qM3iy-37" value="Method Synchronization" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-600" y="60" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="V_Qym_rLcbJQCU_qM3iy-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="V_Qym_rLcbJQCU_qM3iy-38" target="V_Qym_rLcbJQCU_qM3iy-35" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V_Qym_rLcbJQCU_qM3iy-38" value="Block Synchronization" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-600" y="110" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="V_Qym_rLcbJQCU_qM3iy-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="V_Qym_rLcbJQCU_qM3iy-41" target="V_Qym_rLcbJQCU_qM3iy-37" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V_Qym_rLcbJQCU_qM3iy-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="V_Qym_rLcbJQCU_qM3iy-41" target="V_Qym_rLcbJQCU_qM3iy-38" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V_Qym_rLcbJQCU_qM3iy-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="V_Qym_rLcbJQCU_qM3iy-41" target="V_Qym_rLcbJQCU_qM3iy-44" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-650" y="100" />
+              <mxPoint x="-650" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V_Qym_rLcbJQCU_qM3iy-41" value="&lt;b&gt;Intrinsic Locks&lt;/b&gt; (Monitor Locks)&lt;div&gt;thread gọi một phương thức &lt;code&gt;synchronized&lt;/code&gt;, nó sẽ giữ &lt;strong&gt;intrinsic lock&lt;/strong&gt; trên đối tượng đó&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-890" y="60" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="V_Qym_rLcbJQCU_qM3iy-44" value="&lt;b&gt;Static Synchronized&lt;br&gt;&lt;/b&gt;- khóa trên &lt;strong&gt;class object&lt;/strong&gt; thay vì instance cụ thể&lt;br&gt;- các thread sẽ phải chia sẻ cùng một lock của class" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-560" y="250" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V_Qym_rLcbJQCU_qM3iy-47" value="Volatile&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;- đảm bảo rằng giá trị của biến luôn được đọc và ghi trực tiếp từ bộ nhớ chính (&lt;/span&gt;main memory&lt;span style=&quot;font-weight: normal;&quot;&gt;)&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;-&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;tránh các vấn đề về &lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;visibility&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt; trong Java Memory Model&lt;br&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;không có &lt;/span&gt;&lt;code style=&quot;background-color: initial;&quot;&gt;volatile&lt;/code&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;, một thread có thể không thấy giá trị mới variable&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;khi một thread khác cập nhật nó&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-560" y="320" width="320" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="V_Qym_rLcbJQCU_qM3iy-49" value="&lt;b&gt;ReentrantLock&lt;/b&gt;&lt;div&gt;- cung cấp thêm isClocked(), tryClock() =&amp;gt; giảm được deadlock, tăng khả năng kiểm soát truy cập tài nguyên&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-560" y="440" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5eDSNTvj5JFyMI8n2aZp-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="V_Qym_rLcbJQCU_qM3iy-51" target="5eDSNTvj5JFyMI8n2aZp-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5eDSNTvj5JFyMI8n2aZp-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="V_Qym_rLcbJQCU_qM3iy-51" target="5eDSNTvj5JFyMI8n2aZp-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5eDSNTvj5JFyMI8n2aZp-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="V_Qym_rLcbJQCU_qM3iy-51" target="5eDSNTvj5JFyMI8n2aZp-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-205" y="720" />
+              <mxPoint x="-205" y="833" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5eDSNTvj5JFyMI8n2aZp-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="V_Qym_rLcbJQCU_qM3iy-51" target="5eDSNTvj5JFyMI8n2aZp-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V_Qym_rLcbJQCU_qM3iy-51" value="&lt;meta charset=&quot;utf-8&quot;&gt;Atomic Operations" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-110" y="700" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5eDSNTvj5JFyMI8n2aZp-2" value="Tác dụng :&lt;div&gt;- Tăng giảm giá trị số nguyên an toàn trong môi trường đa thuồng&lt;/div&gt;&lt;div&gt;- thay thế cho&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;synchronized&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- cập nhật trạng thái flag một cách an toàn&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- đếm số lượng yêu cầu truy cập tài nguyên dùng chung&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="-560" y="560" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5eDSNTvj5JFyMI8n2aZp-4" value="AtomicInteger" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-425" y="700" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5eDSNTvj5JFyMI8n2aZp-5" value="AtomicBoolean" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-425" y="760" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5eDSNTvj5JFyMI8n2aZp-6" value="AtomicReference" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-422.5" y="816.7" width="122.5" height="33.3" as="geometry" />
+        </mxCell>
+        <mxCell id="5eDSNTvj5JFyMI8n2aZp-11" value="&lt;div&gt;import java.util.concurrent.atomic.AtomicInteger;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;class User {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; String name;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; User(String name) { this.name = name; }&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;public class AtomicExample {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; private static AtomicInteger counter = new AtomicInteger(0);&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; public static void main(String[] args) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; int numThreads = 5;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Thread[] threads = new Thread[numThreads];&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; for (int i = 0; i &amp;lt; numThreads; i++) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;b&gt;threads&lt;/b&gt;[i] = new &lt;b&gt;Thread&lt;/b&gt;(() -&amp;gt; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; for (int j = 0; j &amp;lt; 1000; j++) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;b&gt;counter&lt;/b&gt;.incrementAndGet(); // Tăng giá trị biến một cách an toàn&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; });&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;b&gt;threads&lt;/b&gt;[i].start();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // Chờ tất cả các luồng hoàn thành&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; for (Thread &lt;b&gt;thread&lt;/b&gt; : threads) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; try {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;b&gt;thread&lt;/b&gt;.join();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; } catch (InterruptedException e) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; e.printStackTrace();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Thread &lt;b&gt;thread1&lt;/b&gt; = new Thread(() -&amp;gt; {&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (isRunning.compareAndSet(false, true)) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; System.out.println(&quot;Thread 1: Đang thực hiện tác vụ...&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; try { Thread.sleep(2000); } catch (InterruptedException e) {}&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; isRunning.set(false);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; } else {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; System.out.println(&quot;Thread 1: Không thể chạy, một luồng khác đang hoạt động!&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; });&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Thread &lt;b&gt;thread2&lt;/b&gt; = new Thread(() -&amp;gt; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (isRunning.compareAndSet(false, true)) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; System.out.println(&quot;Thread 2: Đang thực hiện tác vụ...&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; try { Thread.sleep(2000); } catch (InterruptedException e) {}&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; isRunning.set(false);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; } else {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; System.out.println(&quot;Thread 2: Không thể chạy, một luồng khác đang hoạt động!&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; });&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;b&gt;thread1&lt;/b&gt;.start();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;b&gt;thread2&lt;/b&gt;.start();&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;Thread &lt;b&gt;t1&lt;/b&gt; = new Thread(() -&amp;gt; {&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; userRef.set(new &lt;b&gt;User&lt;/b&gt;(&quot;Bob&quot;));&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; System.out.println(&quot;Thread 1 cập nhật user: &quot; + userRef.get().name);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; });&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Thread &lt;b&gt;t2&lt;/b&gt; = new Thread(() -&amp;gt; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; userRef.set(new &lt;b&gt;User&lt;/b&gt;(&quot;Charlie&quot;));&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; System.out.println(&quot;Thread 2 cập nhật user: &quot; + userRef.get().name);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; });&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; t1.start();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; t2.start();&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;System.out.println(&quot;Final counter value: &quot; + counter.get()); // Kết quả sẽ luôn chính xác&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-1220" y="480" width="600" height="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="5eDSNTvj5JFyMI8n2aZp-16" value="" style="endArrow=none;html=1;rounded=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-711" y="1259.7" as="sourcePoint" />
+            <mxPoint x="-711" y="949.7" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5eDSNTvj5JFyMI8n2aZp-17" value="" style="endArrow=none;html=1;rounded=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-710" y="894" as="sourcePoint" />
+            <mxPoint x="-710" y="654" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5eDSNTvj5JFyMI8n2aZp-19" value="" style="endArrow=none;html=1;rounded=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-710" y="1505" as="sourcePoint" />
+            <mxPoint x="-710" y="1275" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5eDSNTvj5JFyMI8n2aZp-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="5eDSNTvj5JFyMI8n2aZp-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-440" y="710" as="sourcePoint" />
+            <mxPoint x="-710" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5eDSNTvj5JFyMI8n2aZp-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="5eDSNTvj5JFyMI8n2aZp-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-422" y="833" as="sourcePoint" />
+            <mxPoint x="-710" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5eDSNTvj5JFyMI8n2aZp-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="5eDSNTvj5JFyMI8n2aZp-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-690" y="1190" as="sourcePoint" />
+            <mxPoint x="-710" y="1370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PTDOkgaLtRNwIMFYP1al-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PTDOkgaLtRNwIMFYP1al-2" target="PTDOkgaLtRNwIMFYP1al-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="259" y="940" />
+              <mxPoint x="259" y="734" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PTDOkgaLtRNwIMFYP1al-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PTDOkgaLtRNwIMFYP1al-2" target="PTDOkgaLtRNwIMFYP1al-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="259" y="779" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PTDOkgaLtRNwIMFYP1al-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PTDOkgaLtRNwIMFYP1al-2" target="PTDOkgaLtRNwIMFYP1al-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="259" y="829" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PTDOkgaLtRNwIMFYP1al-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PTDOkgaLtRNwIMFYP1al-2" target="PTDOkgaLtRNwIMFYP1al-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="259" y="880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PTDOkgaLtRNwIMFYP1al-2" value="&lt;b&gt;ExecutorService :&amp;nbsp;&lt;/b&gt;&amp;nbsp;handle task &lt;b&gt;runnable&lt;/b&gt; and &lt;b&gt;callable&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="243" y="940" width="325" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PTDOkgaLtRNwIMFYP1al-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PTDOkgaLtRNwIMFYP1al-4" target="PTDOkgaLtRNwIMFYP1al-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="1000" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PTDOkgaLtRNwIMFYP1al-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PTDOkgaLtRNwIMFYP1al-4" target="PTDOkgaLtRNwIMFYP1al-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="1050" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PTDOkgaLtRNwIMFYP1al-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PTDOkgaLtRNwIMFYP1al-4" target="PTDOkgaLtRNwIMFYP1al-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="1100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PTDOkgaLtRNwIMFYP1al-4" value="ScheduledExecutorService :&amp;nbsp;&lt;span style=&quot;font-weight: normal;&quot;&gt;&amp;nbsp;thực thi các task trong tương lai hoặc lặp lại định kỳ&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="243" y="1150" width="337" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PTDOkgaLtRNwIMFYP1al-6" value="&lt;code&gt;execute(Runnable command)&lt;/code&gt;: Chạy một &lt;code&gt;Runnable&lt;/code&gt; nhưng không trả về kết quả" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="279" y="719" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PTDOkgaLtRNwIMFYP1al-7" value="&lt;code&gt;submit(Callable&amp;lt;T&amp;gt; task)&lt;/code&gt;: Chạy một &lt;code&gt;Callable&lt;/code&gt; và trả về &lt;code&gt;Future&amp;lt;T&amp;gt;&lt;/code&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="279" y="759" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PTDOkgaLtRNwIMFYP1al-10" value="&lt;code&gt;shutdown()&lt;/code&gt;: Ngừng nhận task mới và chờ các task hiện tại hoàn thành." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="279" y="809" width="321" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PTDOkgaLtRNwIMFYP1al-12" value="&lt;code&gt;shutdownNow()&lt;/code&gt;: Cố gắng dừng ngay lập tức các task đang chạy." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="279" y="860" width="321" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PTDOkgaLtRNwIMFYP1al-15" value="&lt;code&gt;schedule(Runnable, long delay, TimeUnit unit)&lt;/code&gt;: Chạy một task sau một khoảng thời gian." style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="279" y="980" width="381" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PTDOkgaLtRNwIMFYP1al-16" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;code&gt;scheduleAtFixedRate(Runnable, long initialDelay, long period, TimeUnit unit)&lt;/code&gt;: Chạy task theo chu kỳ cố định" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="279" y="1030" width="381" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PTDOkgaLtRNwIMFYP1al-17" value="&lt;code&gt;scheduleWithFixedDelay(Runnable, long initialDelay, long delay, TimeUnit unit)&lt;/code&gt;: Chạy task với một khoảng thời gian cố định giữa các lần chạy" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="279" y="1080" width="421" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
